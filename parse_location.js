@@ -18,3 +18,4 @@ link.href = 'https://example.com/style.css'; // URL of the external CSS file
 
 // Append the link element to the head
 document.getElementsByTagName('head')[0].appendChild(link);
+var t = "just a test."
