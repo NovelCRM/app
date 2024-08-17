@@ -19,7 +19,7 @@ background: #XXXXXX;
 /* COLOR CSS FOR CLICK & HOVER MENU ITEMS */
 
 .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
-background: #XXXXXX;
+background: rgb(128, 135, 189);
 }
 
 /* COLOR CSS FOR Go Back BUTTON */
