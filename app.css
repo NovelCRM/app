@@ -4,3 +4,6 @@ Styles save here will update the CRM UI
 
 Please test changes during off hours Florida time.  Thanks.
 -------------------------------------------*/
+#sidebar-v2.default-bg-color {
+   background-color: #000000
+}
