@@ -4,6 +4,26 @@ Styles save here will update the CRM UI
 
 Please test changes during off hours Florida time.  Thanks.
 -------------------------------------------*/
-#sidebar-v2.default-bg-color {
-   background-color: #000000
+/* COLOR CSS FOR ENTIRE SIDEBAR */
+
+.sidebar-v2-agency #sidebar-v2 .default-bg-color, .sidebar-v2-agency #sidebar-v2.default-bg-color, .sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
+    background: #000000;
+}
+
+/* COLOR CSS FOR SEARCH FIELDS ONLY */
+
+.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-agency #sidebar-v2 #globalSearchOpener, .sidebar-v2-agency #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #globalSearchOpener, .sidebar-v2-location #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title, .sidebar-v2-agency #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title {
+background: #XXXXXX;
+}
+
+/* COLOR CSS FOR CLICK & HOVER MENU ITEMS */
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover {
+background: #XXXXXX;
+}
+
+/* COLOR CSS FOR Go Back BUTTON */
+
+.sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-agency #sidebar-v2 #backButtonv2 {
+background: #XXXXXX;
 }
