@@ -6,8 +6,8 @@ Please test changes during off hours Florida time.  Thanks.
 -------------------------------------------*/
 /* COLOR CSS FOR ENTIRE SIDEBAR */
 
-.sidebar-v2-agency #sidebar-v2 .default-bg-color, .sidebar-v2-agency #sidebar-v2.default-bg-color, .sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
-    background: #141414;
+.default-bg-color, .sidebar-v2-agency #sidebar-v2 .default-bg-color, .sidebar-v2-agency #sidebar-v2.default-bg-color, .sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
+    background: linear-gradient(90deg, #ff007f, #6600ff);
 }
 
 /* COLOR CSS FOR SEARCH FIELDS ONLY */
