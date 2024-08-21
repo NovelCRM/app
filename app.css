@@ -13,7 +13,7 @@ Please test changes during off hours Florida time.  Thanks.
 /* COLOR CSS FOR SEARCH FIELDS ONLY */
 
 .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-agency #sidebar-v2 #globalSearchOpener, .sidebar-v2-agency #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #globalSearchOpener, .sidebar-v2-location #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title, .sidebar-v2-agency #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title {
-background: #XXXXXX;
+/* background: #XXXXXX; */
 }
 
 /* COLOR CSS FOR CLICK & HOVER MENU ITEMS */
@@ -25,5 +25,5 @@ background: rgb(128, 135, 189);
 /* COLOR CSS FOR Go Back BUTTON */
 
 .sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-agency #sidebar-v2 #backButtonv2 {
-background: #XXXXXX;
+/* background: #XXXXXX; */
 }
