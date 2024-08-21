@@ -3,17 +3,26 @@
 Styles save here will update the CRM UI
 
 Please test changes during off hours Florida time.  Thanks.
+
 -------------------------------------------*/
+
+/* FONT: Plus Jakarta Sans */
+
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url('https://cdn.courses.apisystem.tech/memberships/twxIMhDQQtrFMasmr3j9/post-materials/64f7c6cb-683b-419a-a31c-a08037422fa3/Plus-Jakarta-Sans.woff2') format('woff2');
+}
+
 /* COLOR CSS FOR ENTIRE SIDEBAR */
 
 .sidebar-v2-agency #sidebar-v2 .default-bg-color, .sidebar-v2-agency #sidebar-v2.default-bg-color, .sidebar-v2-location #sidebar-v2 .default-bg-color, .sidebar-v2-location #sidebar-v2.default-bg-color {
-    background: #141414;
+    background: #000000;
 }
 
 /* COLOR CSS FOR SEARCH FIELDS ONLY */
 
 .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2, .sidebar-v2-agency #sidebar-v2 #globalSearchOpener, .sidebar-v2-agency #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #globalSearchOpener, .sidebar-v2-location #sidebar-v2 #quickActions, .sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title, .sidebar-v2-agency #sidebar-v2 #backButtonv2, .sidebar-v2-location #sidebar-v2 .menu-title {
-background: #XXXXXX;
+/* background: #XXXXXX; */
 }
 
 /* COLOR CSS FOR CLICK & HOVER MENU ITEMS */
@@ -25,5 +34,56 @@ background: rgb(128, 135, 189);
 /* COLOR CSS FOR Go Back BUTTON */
 
 .sidebar-v2-location #sidebar-v2 #backButtonv2, .sidebar-v2-agency #sidebar-v2 #backButtonv2 {
-background: #XXXXXX;
+/* background: #XXXXXX; */
+}
+
+/* Additional Edits */
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a {
+    font-family: PlusJakartaSans !important;
+}
+
+.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a, .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a {
+    font-family: PlusJakartaSans !important;
+}
+
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a {
+    font-family: PlusJakartaSans !important;
+}
+
+.hl_controls .hl_controls--left h1, .hl_controls .hl_controls--left h2, .hl_controls .hl_controls--left h3 {
+    font-family: PlusJakartaSans !important;
+    font-weight: bold;
+}
+
+.hl-text-lg-medium {
+    font-family: PlusJakartaSans !important;
+    font-weight: bold;
+}
+
+.hl-header-content .title {
+    font-family: PlusJakartaSans !important;
+    font-weight: bold;
+}
+
+.sidebar-v2-location .hl_header .container-fluid {
+    font-family: PlusJakartaSans !important;
+}
+
+.sidebar-v2-agency .hl_header.--agency {
+    font-family: PlusJakartaSans !important;
+}
+
+.topmenu-nav {
+    font-family: PlusJakartaSans !important;
+}
+
+.topmenu-nav .topmenu-navtitle {
+    color: #fff !important;
+    font-family: PlusJakartaSans !important;
+}
+
+.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem {
+    color: #fff !important;
+    font-family: PlusJakartaSans !important;
 }
