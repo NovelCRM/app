@@ -1,4 +1,4 @@
-/* test */
-#globalsearchopener {
-  background-color: #000000
+#globalSearchOpener {
+    background-color: black;
+    border: 1px solid purple;
 }
