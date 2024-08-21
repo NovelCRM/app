@@ -89,3 +89,8 @@ background: rgb(128, 135, 189);
     color: #141414 !important;
     font-family: PlusJakartaSans !important;
 }
+
+#globalSearchOpener, #location-switcher-sidbar-v2 {
+    background-color: black !important;
+    border: 2px solid rgb(128, 135, 189) !important;
+}
