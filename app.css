@@ -83,7 +83,9 @@ background: rgb(128, 135, 189);
     font-family: PlusJakartaSans !important;
 }
 
-.sidebar-v2-location .hl_header .topmenu-nav .topmenu-navitem {
+.sidebar-v2-location .hl_header 
+/* .topmenu-nav .topmenu-navitem  */
+{
     color: #fff !important;
     font-family: PlusJakartaSans !important;
 }
