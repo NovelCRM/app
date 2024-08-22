@@ -94,3 +94,9 @@ background: rgb(128, 135, 189);
     background-color: black !important;
     border: 1px solid rgb(128, 135, 189) !important;
 }
+.n-button--primary-type {
+   background-color:rgb(21, 94, 239) !important;
+}
+.topmenu-navitem.active {
+   color: rgb(21, 94, 239) !important;
+}
